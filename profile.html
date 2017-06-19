@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Subham Sengupta</title>
+        <link rel="stylesheet" type="text/css" href="./styles/styles_profile.css">
+        <script src="./scripts/jq.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script src="./scripts/script_profile.js"></script>
+        <div id="header"></div>
+        <div id="headerlogo" ></div>
+        <div id="title"></div>
+        <div id="rh1" class="rh">Go Nerd</div>
+        <div id="rh2" class="rh">Help Desk</div>
+        <div id="rh3" class="rh">Notice Board</div>
+        <div id="logout"></div>
+        <div>
+            <input type="text" name="searchbox" id="searchbox" placeholder="Search for a Person, Topic..">
+            <div id="searchicon"></div>
+        </div>
+         <div id="Requests" class="tag">
+            <div id="req_count" class="count">1</div>
+        </div>
+        <div id="Messages" class="tag">
+            <div id="message_count" class="count">5</div>
+        </div>
+        <div id="Notification" class="tag">
+             <div id="noti_count" class="count">10</div>
+        </div>
+        <div id="profilepicture"></div>
+        <div id="sortby">Your Posts</div>
+        <div id="sb">View By:</div>
+        <div id="sb1" class="sby">All</div>
+        <div id="sb2" class="sby">Status</div>
+        <div id="sb3" class="sby">Photo</div>
+        <div id="sb4" class="sby">Video</div>
+        <div id="sb5" class="sby">Doc</div>
+        <div id="timeline"> </div>
+        <form action="">
+            <textarea id="postarea" placeholder="update your post.."></textarea>
+            <div id="background"></div>
+            <div id="photo" class="addthings">
+                <div id="p" class="pp">Add Photo</div>
+            </div>
+            <div id="video" class="addthings">
+                <div id="v" class="pp">Add Video</div>
+            </div>
+            <div id="doc" class="addthings">
+                <div id="d" class="pp">Add Document</div>
+            </div>
+            <input id="submitpost" type="submit" value="post">
+        </form>
+        <div id="details">
+            <h2 id="profilename">Subham Sengupta</h2>
+            <p id="collegename">JIS College of Engineering</p>
+            <p id="stream">Department of CSE</p>
+            <p id="batch">Batch of 2017</p>
+        </div>
+        <div id="tf_demo"></div>
+        <input type="text" placeholder="Search a Friend.." id="searchfriend">
+        <div id="friendlist" onclick="showList();">Message a Friend</div>
+        <div id="chat" onclick="showFriends();">Go Online</div>
+    </body>
+</html>

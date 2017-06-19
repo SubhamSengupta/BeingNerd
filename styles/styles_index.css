@@ -1,0 +1,514 @@
+            #headerlogo{
+                position: absolute;
+                left: 15px;
+                width: 55px;
+                height: 55px;
+                background-image: url("../images/logo_on.png");
+                background-size: 100% 100%;
+            }
+            #title{
+                position: absolute;
+                top: 15px;
+                left: 85px;
+                height: 40px;
+                width: 160px;
+                background-image: url("../images/title.png");
+                background-size: 100% 100%;
+            }
+            #header{
+                position: absolute;
+                left: 75px;
+                width: 1285px;
+                height : 50px;
+                background-color: cornflowerblue;
+                border-radius: 4px;
+            }
+            .rh{
+                position: absolute;
+                top:9px;
+                height: 29px;
+                width:max-content;
+                background: transparent;
+                color: white;
+                font-weight: bold;
+                padding: 14px 17px 5px 20px;
+                font-family: verdana, arial;
+                font-size: 15px;
+            }
+            .rh:hover{
+                background: linear-gradient(white,whitesmoke);
+                border-radius: 4px;
+                color:cornflowerblue;
+            }
+            #rh1{
+                left: 938px;
+            }
+            #rh2{
+                left: 1043px;
+            }
+            #rh3{
+                left: 1155px;
+            }
+            #logout{
+                position: absolute;
+                top:10px;
+                left: 1307px;
+                height: 44px;
+                width: 44px;
+                border: 1px solid black;
+                border-radius: 4px;
+                background-image: url("../images/profile_pic.png");
+                background-size: 100% 100%;
+            }
+            #logout:hover{
+                background-image: url("../images/logout.png"),url("../images/profile_pic.png");
+                background-size: 70% 70%,100% 100%;
+                background-position: 7px 7px, 0px 0px;
+                background-repeat: no-repeat;
+            }
+            #searchbox{
+                position: absolute;
+                top:14px;
+                left: 520px;
+                width: 292px;
+                height: 25px;
+                border: 2px solid transparent;
+                border-radius: 4px;
+                padding: 3px 5px 3px 10px;
+                transition: width 0.5s ease;
+                font-size:14px;
+            }
+            #searchicon{
+                position: absolute;
+                top: 16px;
+                margin-left: 0px;
+                left: 790px;
+                height:29px;
+                width: 29px;
+                background:white;
+                background-image: url("../images/search.png");
+                background-size: 100% 100%; 
+                border: 1px transparent solid;
+                transition: margin 0.5s ease;
+              
+            }
+            #searchbox:focus{
+                width:353px;
+                
+            }
+            #searchbox:focus~#searchicon{
+                top: 14px;
+                height: 30px;
+                width: 30px;
+                margin-left: 110px;
+                border: 2px solid white;
+                border-radius: 5px;
+            }
+            #sortby{
+                position: absolute;
+                top: 63px;
+                left: 620px;
+                width: 710px;
+                height: 25px;
+                border: 1px solid black;
+                box-shadow: 5px 5px 5px 0 rgba(175,190,220,0.5), 5px 5px 5px 0 rgba(175,190,220,0.5);
+                border: 2px solid whitesmoke;
+                border-top: 1px transparent solid;
+                border-radius: 4px;
+                padding: 7px 0px 0px 20px;
+                font-family: verdana,arial;
+                font-size: 15px;
+            }
+            .sby,#sb{
+                position: absolute;
+                top: 63px;
+                left: 750px;
+                width: max-content;
+                white-space: nowrap;
+                overflow: hidden;
+                border: 1px transparent solid;
+                height: 23px;
+                padding: 10px 10px 0px 10px;
+                font-family: verdana,arial;
+                font-size: 13px;
+            }
+            #sb{
+                left: 1000px;
+            }
+            #sb1{
+                left: 1083px;
+            }
+            #sb2{
+                left: 1121px;
+            }
+            #sb3{
+                left: 1184px;
+            }
+            #sb4{
+                left: 1242px;
+            }
+            #sb5{
+                left: 1300px;
+            }
+            .sby:hover{
+                background: linear-gradient(cornflowerblue,#5e62cb);
+                border-radius: 4px;
+                color: white;
+            }
+            #timeline{
+                position: absolute;
+                width: 730px;
+                border: 1px solid black;
+                height: 540px;
+                left: 620px;
+                top: 100px;
+                box-shadow: 5px 5px 5px 0 rgba(175,190,220,0.5), 5px 5px 5px 0 rgba(175,190,220,0.5);
+                border: 2px solid whitesmoke;
+                border-top: 1px transparent solid;
+                border-radius: 4px;
+            }
+            #profilebox{
+                position: absolute;
+                top: 68px;
+                left: 5px;
+                width: 605px;
+                height: 165px;
+                border-radius: 10px;
+                border-top: 1px solid aliceblue;
+                background: linear-gradient(white,aliceblue);
+                box-shadow: 5px 5px 5px 0 rgba(175,190,220,0.5), 5px 5px 5px 0 rgba(175,190,220,0.5);
+            }
+            #profilepicture{
+                position: absolute;
+                top: 80px;
+                left: 10px;
+                height: 100px;
+                width: 100px;
+                border: 1px solid black;
+                background-image: url("../images/profile_pic.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                border-radius: 5px;
+            }
+           
+            #name{
+                position: absolute;
+                top: 95px;
+                width: max-content;
+                white-space: nowrap;
+                overflow: hidden;
+                font-family: arial;
+                font-size: 18px;
+                padding: 2px;
+                border: 1px transparent solid;
+               
+            }
+            #profilepicture:hover, #name:hover, #profilepicture:hover .gotopro,#name:hover~.gotopro{
+                box-shadow: 5px 5px 5px 0 rgba(175,190,220,0.5), 5px 5px 5px 0 rgba(175,190,220,0.5);
+                border-radius: 5px;
+            }
+            
+            #postarea{
+                position:  absolute;
+                resize: none;
+                top: 84px;
+                left: 250px;
+                width: 330px;
+                height: 40px;
+                border-top: 0px solid white;
+                border-left: 1px solid #bdbaba;
+                border-bottom: 2px solid #bdbaba;
+                border-right: 1px solid #bdbaba;
+                padding: 10px;
+                font-family: verdana;
+                font-size: 15px;
+                border-radius: 5px;
+                transition: height 0.5s ease;
+            }       
+            #postarea:focus{
+               height: 85px;
+               
+               box-shadow: 5px 5px 5px 0 rgba(175,190,220,0.5), 5px 5px 5px 0 rgba(175,190,220,0.5);
+            }
+            #postarea:focus ~ #submitpost,#postarea:focus ~ .addthings{
+               margin-top: 35px;
+            }
+            #submitpost{
+                position: absolute;
+                top: 165px;
+                left: 532px;
+                border-top: 0px solid white;
+                border-left: 1px solid #bdbaba;
+                border-bottom: 2px solid #bdbaba;
+                border-right: 1px solid #bdbaba;
+                border-radius: 10px;
+                background-color: white;
+                font-family: verdana,arial;
+                font-size: 15px;
+                padding: 3.9px;
+                width: 70px;
+                transition: margin 0.5s ease;
+            }
+            #submitpost:hover{
+                box-shadow: 4px 4px 4px 0 rgba(175,190,220,0.5), 4px 4px 4px 0 rgba(175,190,220,0.5);
+                background-color: cornflowerblue;
+                border-bottom: 2px solid cornflowerblue;
+                border-right: 2px solid cornflowerblue;
+                color: white;
+            }
+            .tag{
+                position: absolute;
+                top: 20px;
+                width: 25px;
+                height: 25px;
+            }
+            #Notification{
+                position: absolute;
+                left: 350px;
+                background-image: url("../images/logo_noti.png");
+                background-size: 100% 100%;
+            }
+            #Messages{
+                position: absolute;
+                left: 400px;
+                background-image: url("../images/logo_message.png");
+                background-size: 100% 100%;
+            }
+            #Requests{
+                position: absolute;
+                left:450px;
+                background-image: url("../images/logo_req.png");
+                background-size: 100% 100%;
+            }
+            .count{
+                position: absolute;
+                left: 15px;
+                bottom: 10px;
+                background-color: red;
+                width: max-content;
+                height: 15px;
+                color: white;
+                font-family: arial;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 1px 3px 0 3px;;
+            }
+           
+            #backgrounds{
+                top: 165px;
+                left: 250px;
+                height: 25px;
+                width: 210px;
+                background-color: cornflowerblue;
+                border-radius: 10px;
+            }
+            .addthings{
+                top: 165px;
+                left: 250px;
+                width: 70px;
+                height: 25px;
+                background-color: transparent;
+                border-bottom: 2px solid #bdbaba;
+                transition: margin 0.5s ease;
+            }
+            .addthings:hover ~.addthings{
+                visibility: hidden;
+            }
+            .addthings:hover{
+                box-shadow: 4px 4px 4px 0 rgba(175,190,220,0.5), 4px 4px 4px 0 rgba(175,190,220,0.5);
+                border-bottom: 2px solid cornflowerblue;
+                background-color: cornflowerblue;
+                border-radius: 10px ;
+                
+            }
+            .pp{
+                position: absolute;
+                top: 5px;
+                left: 70px;
+                width: max-content;
+                font-family: verdana,arial;
+                font-size: 15px;
+                color: white;
+                background: transparent;
+                font-weight: bold;
+                white-space: nowrap;
+                overflow: hidden;
+                visibility: hidden;
+            }
+            
+            #photo{
+                position: absolute;
+                left: 250px;
+                border-right: 2px solid #bdbaba;
+                border-radius: 10px 0 0 10px;
+                background-image: url("../images/logo_photo.png");
+                background-size: 20px 20px;
+                background-position: 23px 4px; 
+                background-repeat: no-repeat;
+            }
+            #photo:hover{
+                width:210px;
+                transition: width 0.5s ease;
+                background-color: cornflowerblue;
+                border-right: 2px solid cornflowerblue;
+                border-radius: 10px;
+                background-image: url("../images/logo2_photo.png");
+                background-size: 20px 20px;
+                background-position: 35px 4px; 
+                background-repeat: no-repeat;
+            }
+            #photo:hover  #p{
+                visibility: visible;
+            }
+            #video{
+                position: absolute;
+                left: 222px;
+                margin-left: 100px;
+                border-right: 2px solid #bdbaba;
+                background-image: url("../images/logo_video.png");
+                background-size: 20px 20px;
+                background-position: 23px 4px; 
+                background-repeat: no-repeat;
+            }
+            #video:hover{
+                width:210px;
+                margin-left: 29px;
+                border-right: 2px solid cornflowerblue;
+                border-left: 2px solid cornflowerblue;
+                transition: width 0.5s,margin 0.5s ease;
+                border-radius: 10px;
+                background-image: url("../images/logo2_video.png");
+               background-size: 20px 20px;
+                background-position: 35px 4px; 
+                background-repeat: no-repeat;
+            }
+            #video:hover  #v{
+                visibility: visible;
+            }
+            #doc{
+                position: absolute;
+                left: 250px;
+                margin-left: 144px;
+                border-radius: 0 10px 10px 0;
+                background-image: url("../images/logo_doc.png");
+                background-size: 20px 20px;
+                background-position: 23px 4px; 
+                background-repeat: no-repeat;
+            }
+            #doc:hover{
+                width:210px;
+                background-image: url("../images/logo2_doc.png");
+                background-size: 20px 20px;
+                background-position: 35px 4px; 
+                background-repeat: no-repeat;
+                margin-left: 0px;
+                border-left: 2px solid cornflowerblue;
+                border-radius: 10px;
+                transition: all 0.5s ease;
+                
+                
+            }
+            #doc:hover  #d{
+                visibility: visible;
+            }
+            #friendlist{
+                position: absolute;
+                top: 610px;
+                left: 15px;
+                height: 20px;
+                width: 191px;
+                padding: 5px 10px 3px 50px;
+                background-color: white;
+                border: 1px solid #cdbaba;
+                border-top: 1px solid transparent;
+                box-shadow: 4px 4px 4px 0 rgba(175,190,220,0.5), 4px 4px 4px 0 rgba(175,190,220,0.5);
+                border-radius: 10px ;
+                font-family: verdana,arial;
+                font-size: 15px;
+            }
+            #tf_demo{
+                position: absolute;
+                top: 640px;
+                left: 5px;
+                height: 0px;
+                width: 273px;
+                border-radius: 10px;
+                background: linear-gradient(white,yellowgreen);
+                visibility: hidden;
+                box-shadow: 4px 4px 4px 0 rgba(175,190,220,0.5), 4px 4px 4px 0 rgba(175,190,220,0.5);
+            }
+            
+            #searchfriend{
+                position: absolute;
+                top: 610px;
+                left: 15px;
+                height: 20px;
+                width: 231px;
+                border: 1px solid transparent;
+                border-left: 1px solid #cdbaba;
+                border-radius: 10px;
+                padding: 5px 10px 3px 10px;
+                font-family: verdana,arial;
+                font-size: 15px;
+                box-shadow: 4px 4px 4px 0 rgba(175,190,220,0.5), 4px 4px 4px 0 rgba(175,190,220,0.5);
+                visibility: hidden;
+            }
+            #searchfriend:hover{
+               background: cornflowerblue;
+               border-bottom: 2px solid cornflowerblue;
+               color: white;
+            }
+            #searchfriend:hover::-webkit-input-placeholder{
+                color: white;
+            }
+            #chat{
+                position: absolute;
+                top: 610px;
+                left: 450px;
+                height: 20px;
+                width: 90px;
+                background-color: white;
+                border: 1px solid transparent;
+                border-bottom: 3px solid #cdbaba;
+                border-radius: 10px;
+                font-family: verdana,arial;
+                padding: 5px 30px 3px 20px;
+            }
+            #chat:hover{
+                color: white;
+                border-bottom: 2px solid cornflowerblue;
+                background-color: cornflowerblue!important;
+                box-shadow: 4px 4px 4px 0 rgba(175,190,220,0.5), 4px 4px 4px 0 rgba(175,190,220,0.5);
+            }
+            #updateheader{
+                position: absolute;
+                top: 260px;
+                left: 300px;
+                height: 25px;
+                width: 300px;
+                font-family: verdana,arial;
+                font-size: 15px;
+                padding-left: 10px;
+            }
+            #updates{
+                position: absolute;
+                top: 290px;
+                left: 300px;
+                height: 100px;
+                width: 300px;
+                background: white;
+                border-left: 1px solid #cdbaba;
+                border-radius: 10px;
+                box-shadow: 4px 4px 4px 0 rgba(175,190,220,0.5), 4px 4px 4px 0 rgba(175,190,220,0.5);
+            }
+            #chatbox{
+                position: absolute;
+                top: 250px;
+                left: 5px;
+                height: 400px;
+                width: 605px;
+                border-top: 1px solid aliceblue;
+                border-radius: 10px;
+                background: linear-gradient(white,aliceblue);
+                box-shadow: 5px 5px 5px 0 rgba(175,190,220,0.5), 5px 5px 5px 0 rgba(175,190,220,0.5);
+            }
